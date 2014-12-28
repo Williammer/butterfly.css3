@@ -1,0 +1,264 @@
+/* layout style */
+#wrapper {
+    width: 1349px;
+    margin: 0 auto;
+    position: relative;
+}
+/* index css3 objects css */
+.flower {
+	animation-name: scale_2x;
+   
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; 
+	
+	-moz-animation-name: scale_2x;
+	
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-direction: alternate;
+    -moz-animation-timing-function: ease-in-out; 
+	
+	-ms-animation-name: scale_2x;
+	
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-direction: alternate;
+    -ms-animation-timing-function: ease-in-out; 
+	
+	-o-animation-name: scale_2x;
+	
+    -o-animation-iteration-count: infinite;
+    -o-animation-direction: alternate;
+    -o-animation-timing-function: ease-in-out; 
+	
+	-webkit-animation-name: scale_2x;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-timing-function: ease-in-out; 
+	 position:absolute; 
+}
+	
+.flower_1 {width:350px; height:350px;top:250px; left:0px;background:transparent url(../img/flower_1.png) 0 0 no-repeat;
+    z-index:0;
+    animation-name: scale_1x;
+    -moz-animation-name: scale_1x;
+    -ms-animation-name: scale_1x;
+    -o-animation-name: scale_1x;
+    -webkit-animation-name: scale_1x;
+
+     animation-duration: 2s;
+    -moz-animation-duration: 2s;
+    -ms-animation-duration: 2s;
+    -o-animation-duration: 2s;
+    -webkit-animation-duration: 2s;
+}
+.flower_2 {width:130px; height:130px;top: 440px;left: 300px;background:transparent url(../img/flower_2.png) 0 0 no-repeat;
+    z-index:1;
+    animation-duration: 1.1s;
+    -moz-animation-duration: 1.1s;
+    -ms-animation-duration: 1.1s;
+    -o-animation-duration: 1.1s;
+    -webkit-animation-duration: 1.1s;
+}
+.flower_3 {width:180px; height:180px;top: 460px;left: 500px;background:transparent url(../img/flower_3.png) 0 0 no-repeat;
+     z-index:0;
+     animation-duration: 1.6s;
+    -moz-animation-duration: 1.6s;
+    -ms-animation-duration: 1.6s;
+    -o-animation-duration: 1.6s;
+    -webkit-animation-duration: 1.6s;
+}
+.flower_4 {width:130px; height:126px;top:430px; left:650px;background:transparent url(../img/flower_4.png) 0 0 no-repeat;
+    z-index:1;
+    animation-duration: 1.4s;
+    -moz-animation-duration: 1.4s;
+    -ms-animation-duration: 1.4s;
+    -o-animation-duration: 1.4s;
+    -webkit-animation-duration: 1.4s;
+}
+.flower_5 {width:100px; height:100px;top:460px; right:150px;background:transparent url(../img/flower_5.png) 0 0 no-repeat;
+     animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    -ms-animation-duration: 1s;
+    -o-animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+}
+
+/* .butterfly1 css */
+.butterfly1 { width:90px; height:102px; position:relative; top: 150px;left: 20px;
+	-moz-animation: flight_1 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-animation: flight_1 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-ms-animation: flight_1 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-o-animation: flight_1 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	animation: flight_1 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+}
+
+.butterfly1_body {width:20px; height:20px; position:absolute;bottom: 0px;left: 28px; background:url(../img/butterfly1/butterfly_body.png) no-repeat;}
+.butterfly1_left {
+    width:47px; height:95px; position:absolute; top:0; left:0; background:url(../img/butterfly1/butterfly_left.png) no-repeat;animation-fill-mode:forwards;
+	
+	animation: fly1_left 0.3s infinite alternate;
+   -webkit-animation: fly1_left 0.3s infinite alternate;
+   -o-animation: fly1_left 0.3s infinite alternate;
+   -moz-animation: fly1_left 0.3s infinite alternate;
+   -ms-animation: fly1_left 0.3s infinite alternate;
+    
+	-moz-transform-origin: right;
+	-webkit-transform-origin: right;
+	-o-transform-origin: right;
+	-ms-transform-origin: right;
+	transform-origin: right;
+}
+.butterfly1_right {
+	width:49px; height:38px; position:absolute; top:43px; right: 0px; background:url(../img/butterfly1/butterfly_right.png) no-repeat;
+	
+   animation: fly1_right 0.3s infinite alternate;
+   -webkit-animation: fly1_right 0.3s infinite alternate;
+   -o-animation: fly1_right 0.3s infinite alternate;
+   -moz-animation: fly1_right 0.3s infinite alternate;
+   -ms-animation: fly1_right 0.3s infinite alternate;
+    
+	-moz-transform-origin: 8%;
+	-webkit-transform-origin: 8%;
+	-o-transform-origin: 8%;
+	-ms-transform-origin: 8%;
+	transform-origin: 8%;
+}
+
+/* .butterfly3 css */
+.butterfly3 { width:90px; height:102px; position:relative; top: 135px;left: 1251px;
+	
+	-moz-animation: flight_3 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-animation: flight_3 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-ms-animation: flight_3 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-o-animation: flight_3 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	animation: flight_3 10s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	animation-delay:3s;
+	-webkit-animation-delay:3s;
+	-moz-animation-delay:3s;
+	-ms-animation-delay:3s;
+	-o-animation-delay:3s;
+}
+
+.butterfly3_body {width:20px; height:20px; position:absolute; bottom: 0px;right: 28px; background:url(../img/butterfly3/butterfly_body.png) no-repeat;}
+.butterfly3_left {
+width:49px; height:38px; position:absolute; top:43px; left:1px; background:url(../img/butterfly3/butterfly_left.png) no-repeat;
+
+    animation: fly3_left 0.3s infinite alternate;
+   -webkit-animation: fly3_left 0.3s infinite alternate;
+   -o-animation: fly3_left 0.3s infinite alternate;
+   -moz-animation: fly3_left 0.3s infinite alternate;
+   -ms-animation: fly3_left 0.3s infinite alternate;
+	
+	-moz-transform-origin: 92%;
+	-webkit-transform-origin: 92%;
+	-o-transform-origin: 92%;
+	-ms-transform-origin: 92%;
+	transform-origin: 92%;
+}
+.butterfly3_right {
+	width:47px; height:95px; position:absolute; top:0px; right: -1px; background:url(../img/butterfly3/butterfly_right.png) no-repeat;
+	 animation: fly3_right 0.3s infinite alternate;
+   -webkit-animation: fly3_right 0.3s infinite alternate;
+   -o-animation: fly3_right 0.3s infinite alternate;
+   -moz-animation: fly3_right 0.3s infinite alternate;
+   -ms-animation: fly3_right 0.3s infinite alternate;
+    
+	-moz-transform-origin: left;
+	-webkit-transform-origin: left;
+	-o-transform-origin: left;
+	-ms-transform-origin: left;
+	transform-origin: left;
+}
+
+
+/* .butterfly2_80 css */
+.butterfly2 { width:77px; height:86px; position:relative;top: 13px;z-index: -1;left: 630px;
+	
+	-moz-animation: flight_2 15s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-animation: flight_2 15s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-ms-animation: flight_2 15s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-o-animation: flight_2 15s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	animation: flight_2 15s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	animation-delay:2s;
+	-webkit-animation-delay:2s;
+	-moz-animation-delay:2s;
+	-ms-animation-delay:2s;
+	-o-animation-delay:2s;
+}
+.butterfly2_body {
+    width:6px; height:23px; position:absolute; bottom: 28px;left: 42px; background:url(../img/butterfly2_80/butterfly_body.png) no-repeat;
+}
+
+.butterfly2_left {
+    width:43px; height:66px; position:absolute; top:0; left:0; background:url(../img/butterfly2_80/butterfly_left.png) no-repeat;
+
+    animation: fly2_right 0.2s infinite alternate;
+    -webkit-animation: fly2_right 0.2s infinite alternate;
+    -o-animation: fly2_right 0.2s infinite alternate;
+    -moz-animation: fly2_right 0.2s infinite alternate;
+    -ms-animation: fly2_right 0.2s infinite alternate;
+
+	-moz-transform-origin: right;
+	-webkit-transform-origin: right;
+	-o-transform-origin: right;
+	-ms-transform-origin: right;
+	transform-origin: right;
+}
+.butterfly2_right {
+	width:28px; height:60px; position:absolute; bottom:20px; right: 0px; background:url(../img/butterfly2_80/butterfly_right.png) no-repeat;
+	
+    animation: fly2_left 0.2s infinite alternate;
+    -webkit-animation: fly2_left 0.2s infinite alternate;
+    -o-animation: fly2_left 0.2s infinite alternate;
+    -moz-animation: fly2_left 0.2s infinite alternate;
+    -ms-animation: fly2_left 0.2s infinite alternate;
+    
+	-moz-transform-origin: left;
+	-webkit-transform-origin: left;
+	-o-transform-origin: left;
+	-ms-transform-origin: left;
+	transform-origin: left;
+}
+
+/* .butterfly2_110 css */
+.butterfly4 { width:102px; height:95px; position:relative; top: 0px;left: 285px;z-index: -1;
+	
+	-moz-animation: flight_4 20s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-webkit-animation: flight_4 20s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-ms-animation: flight_4 20s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	-o-animation: flight_4 20s infinite cubic-bezier(0.3, 0, 0.7, 1);
+	animation: flight_4 20s infinite cubic-bezier(0.3, 0, 0.7, 1);
+}
+.butterfly4_body {width:8px; height:31px; position:absolute; bottom: 10px;left: 50px; background:url(../img/butterfly2_110/butterfly_body.png) no-repeat;}
+
+.butterfly4_left {
+width:52px; height:92px; position:absolute; top:0; left:0; background:url(../img/butterfly2_110/butterfly_left.png) no-repeat;
+
+    animation: fly4_left 0.35s infinite alternate;
+    -webkit-animation: fly4_left 0.35s infinite alternate;
+    -o-animation: fly4_left 0.35s infinite alternate;
+    -moz-animation: fly4_left 0.35s infinite alternate;
+    -ms-animation: fly4_left 0.35s infinite alternate;
+
+	-moz-transform-origin: right;
+	-webkit-transform-origin: right;
+	-o-transform-origin: right;
+	-ms-transform-origin: right;
+	transform-origin: right;
+}
+.butterfly4_right {
+	width:44px; height:80px; position:absolute; bottom:0px; right: 0px; background:url(../img/butterfly2_110/butterfly_right.png) no-repeat;
+
+    animation: fly4_right 0.35s infinite alternate;
+    -webkit-animation: fly4_right 0.35s infinite alternate;
+    -o-animation: fly4_right 0.35s infinite alternate;
+    -moz-animation: fly4_right 0.35s infinite alternate;
+    -ms-animation: fly4_right 0.35s infinite alternate;
+    
+	-moz-transform-origin: left;
+	-webkit-transform-origin: left;
+	-o-transform-origin: left;
+	-ms-transform-origin: left;
+	transform-origin: left;
+}
+

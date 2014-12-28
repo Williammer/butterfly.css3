@@ -1,0 +1,1236 @@
+@charset "UTF-8";
+/**************  flower scale animation  *****************/
+@keyframes scale_2x {
+    0% {
+    transform: scale(1,1);        
+    }
+	100% {
+    transform:scale(1.15,1.15);  
+    }
+}
+
+@-moz-keyframes scale_2x {
+    0% {
+    -moz-transform: scale(1,1);
+    }
+    100% {
+    -moz-transform:scale(1.15,1.15);
+    }
+}
+
+@-o-keyframes scale_2x {
+    0% {
+    -o-transform: scale(1,1);
+    }
+    100% {
+    -o-transform:scale(1.15,1.15);
+    }
+}
+
+@-ms-keyframes scale_2x {
+    0% {
+    -ms-transform: scale(1,1);
+   }
+    100% {
+	-ms-transform:scale(1.15,1.15);
+    }
+}
+@-webkit-keyframes scale_2x {
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+	
+    100% {
+        -webkit-transform:scale(1.15,1.15);
+    }
+}
+
+/* scale_1x animation css3 */
+@keyframes scale_1x {
+    0% {
+    transform: scale(1,1);        
+    }
+	
+    100% {
+    transform:scale(1.1,1.1);  
+    }
+}
+
+@-moz-keyframes scale_1x {
+    0% {
+    -moz-transform: scale(1,1);
+    }
+
+    100% {
+    -moz-transform:scale(1.1,1.1);
+    }
+}
+
+@-o-keyframes scale_1x {
+    0% {
+    -o-transform: scale(1,1);
+    }
+    100% {
+    -o-transform:scale(1.1,1.1);
+    }
+}
+
+@-ms-keyframes scale_1x {
+    0% {
+    -ms-transform: scale(1,1);
+   }
+	
+    100% {
+	-ms-transform:scale(1.1,1.1);
+    }
+}
+@-webkit-keyframes scale_1x {
+    0% {
+        -webkit-transform: scale(1,1);
+    }
+	
+    100% {
+        -webkit-transform:scale(1.1,1.1);
+    }
+}
+
+/*****  butterfly css3 animations  *****/
+
+/*****
+ butterfly_1
+******/
+/**************  flight_1 animation  *****************/
+@keyframes flight_1 {
+	 0% {
+	transform: translate(0) ;
+	backface-visibility:hidden;
+	}
+	 15% {
+	transform: translate(85px, 178px) ;
+	backface-visibility:hidden;
+	}
+	 25% {
+	transform: translate(89px, 182px) ;
+	backface-visibility:hidden;
+	}
+	 35% {
+	transform: translate(86px, 178px) ;
+	backface-visibility:hidden;
+	}
+	 50% {
+	transform: translate(110px, -125px) ;
+	backface-visibility:hidden;
+	}
+	 70% {
+		transform: translate(114px, -127px) ;
+		backface-visibility:hidden;
+		}
+	 85% {
+	transform: translate(111px, -125px) ;
+	backface-visibility:hidden;
+	}	
+	 100% {
+	transform: translate(0);
+		}
+}
+@-moz-keyframes flight_1 {
+
+	 0% {
+	-moz-transform: translate(0) ;
+	-moz-backface-visibility:hidden;
+	}
+	 15% {
+	-moz-transform: translate(85px, 178px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 25% {
+	-moz-transform: translate(89px, 182px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 35% {
+	-moz-transform: translate(86px, 178px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 50% {
+	-moz-transform: translate(110px, -125px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 70% {
+		-moz-transform: translate(114px, -127px) ;
+		-moz-backface-visibility:hidden;
+		}
+	 85% {
+	-moz-transform: translate(111px, -125px) ;
+	-moz-backface-visibility:hidden;
+	}	
+	 100% {
+	-moz-transform: translate(0);
+		}
+}
+@-webkit-keyframes flight_1 {
+
+	 0% {
+	-webkit-transform: translate(0) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 15% {
+	-webkit-transform: translate(85px, 178px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 25% {
+	-webkit-transform: translate(89px, 182px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 35% {
+	-webkit-transform: translate(86px, 178px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 50% {
+	-webkit-transform: translate(110px, -125px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 70% {
+		-webkit-transform: translate(114px, -127px) ;
+		-webkit-backface-visibility:hidden;
+		}
+	 85% {
+	-webkit-transform: translate(111px, -125px) ;
+	-webkit-backface-visibility:hidden;
+	}	
+	 100% {
+	-webkit-transform: translate(0);
+		}
+}
+@-ms-keyframes flight_1 {
+	 0% {
+	-ms-transform: translate(0) ;
+	-ms-backface-visibility:hidden;
+	}
+	 15% {
+	-ms-transform: translate(85px, 178px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 25% {
+	-ms-transform: translate(89px, 182px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 35% {
+	-ms-transform: translate(86px, 178px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 50% {
+	-ms-transform: translate(110px, -125px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 70% {
+		-ms-transform: translate(114px, -127px) ;
+		-ms-backface-visibility:hidden;
+		}
+	 85% {
+	-ms-transform: translate(111px, -125px) ;
+	-ms-backface-visibility:hidden;
+	}	
+	 100% {
+	-ms-transform: translate(0);
+		}
+}
+@-o-keyframes flight_1 {
+	 0% {
+	-o-transform: translate(0) ;
+	-o-backface-visibility:hidden;
+	}
+	 15% {
+	-o-transform: translate(85px, 178px) ;
+	-o-backface-visibility:hidden;
+	}
+	 25% {
+	-o-transform: translate(89px, 182px) ;
+	-o-backface-visibility:hidden;
+	}
+	 35% {
+	-o-transform: translate(86px, 178px) ;
+	-o-backface-visibility:hidden;
+	}
+	 50% {
+	-o-transform: translate(110px, -125px) ;
+	-o-backface-visibility:hidden;
+	}
+	 70% {
+		-o-transform: translate(114px, -127px) ;
+		-o-backface-visibility:hidden;
+		}
+	 85% {
+	-o-transform: translate(111px, -125px) ;
+	-o-backface-visibility:hidden;
+	}	
+	 100% {
+	-o-transform: translate(0);
+		}
+}
+
+/**************  fly1 wing_action animation  *****************/
+@keyframes fly1_left {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+
+@keyframes fly1_right {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-65deg) rotateX(15deg);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-88deg) rotateX(15deg);
+	}
+}
+
+@-webkit-keyframes fly1_left {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(0deg);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+
+@-webkit-keyframes fly1_right {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-65deg) rotateX(15deg);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-88deg) rotateX(15deg);
+	}
+}
+
+@-moz-keyframes fly1_left {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+
+@-moz-keyframes fly1_right {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-65deg) rotateX(15deg);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-88deg) rotateX(15deg);
+	}
+}
+@-o-keyframes fly1_left {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+
+@-o-keyframes fly1_right {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-65deg) rotateX(15deg);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-88deg) rotateX(15deg);
+	}
+}
+@-ms-keyframes fly1_left {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+
+@-ms-keyframes fly1_right {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-65deg) rotateX(15deg);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-88deg) rotateX(15deg);
+	}
+}
+
+/*******************************************************************************************************
+ butterfly_3
+********************************************************************************************************/
+/**************  flight_3 animation  *****************/
+@keyframes flight_3 {
+	 0% {
+	transform: translate(0) ;
+	backface-visibility:hidden;
+	}
+	
+	 20% {
+	transform: translate(-120px, 90px) ;
+	backface-visibility:hidden;
+	}
+	 40% {
+	transform: translate(-128px, 98px);
+	backface-visibility:hidden;
+	}
+	 60% {
+	transform: translate(-203px, -216px) ;
+	backface-visibility:hidden;
+	}
+	 80% {
+	transform: translate(-209px, -223px) ;
+	backface-visibility:hidden;
+	}
+	
+	 100% {
+	transform: translate(0);
+		}
+}
+@-moz-keyframes flight_3 {
+
+	 0% {
+	-moz-transform: translate(0) ;
+	-moz-backface-visibility:hidden;
+	}
+	
+	 20% {
+	-moz-transform: translate(-120px, 90px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 40% {
+	-moz-transform: translate(-128px, 98px);
+	-moz-backface-visibility:hidden;
+	}
+	 60% {
+	-moz-transform: translate(-203px, -216px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 80% {
+	-moz-transform: translate(-209px, -223px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 100% {
+	-moz-transform: translate(0);
+		}
+}
+@-webkit-keyframes flight_3 {
+
+	 0% {
+	-webkit-transform: translate(0) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 20% {
+	-webkit-transform: translate(-120px, 90px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 40% {
+	-webkit-transform: translate(-128px, 98px);
+	-webkit-backface-visibility:hidden;
+	}
+	 60% {
+	-webkit-transform: translate(-203px, -216px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 80% {
+	-webkit-transform: translate(-209px, -223px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 100% {
+	-webkit-transform: translate(0);
+		}
+}
+@-ms-keyframes flight_3 {
+	 0% {
+	-ms-transform: translate(0) ;
+	-ms-backface-visibility:hidden;
+	}
+	 
+	 20% {
+	-ms-transform: translate(-120px, 90px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 40% {
+	-ms-transform: translate(-128px, 98px);
+	-ms-backface-visibility:hidden;
+	}
+	 60% {
+	-ms-transform: translate(-203px, -216px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 80% {
+	-ms-transform: translate(-209px, -223px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 100% {
+	-ms-transform: translate(0);
+		}
+}
+@-o-keyframes flight_3 {
+	 0% {
+	-o-transform: translate(0) ;
+	-o-backface-visibility:hidden;
+	}
+	
+	 20% {
+	-o-transform: translate(-120px, 90px) ;
+	-o-backface-visibility:hidden;
+	}
+	 40% {
+	-o-transform: translate(-128px, 98px);
+	-o-backface-visibility:hidden;
+	}
+	 60% {
+	-o-transform: translate(-203px, -216px) ;
+	-o-backface-visibility:hidden;
+	}
+	 80% {
+	-o-transform: translate(-209px, -223px) ;
+	-o-backface-visibility:hidden;
+	}
+	
+	
+	 100% {
+	-o-transform: translate(0);
+		}
+}
+
+/**************  fly3 wing_action animation  *****************/
+@keyframes fly3_left {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-60deg) rotateX(-13deg);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-88deg) rotateX(-13deg);
+	}
+}
+
+
+@keyframes fly3_right {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+@-webkit-keyframes fly3_left {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-60deg) rotateX(-13deg);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-88deg) rotateX(-13deg);
+	}
+}
+
+
+@-webkit-keyframes fly3_right {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(0deg);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+@-moz-keyframes fly3_left {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-60deg) rotateX(-13deg);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-88deg) rotateX(-13deg);
+	}
+}
+
+
+@-moz-keyframes fly3_right {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+@-o-keyframes fly3_left {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-60deg) rotateX(-13deg);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-88deg) rotateX(-13deg);
+	}
+}
+
+
+@-o-keyframes fly3_right {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+@-ms-keyframes fly3_left {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-60deg) rotateX(-13deg);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-88deg) rotateX(-13deg);
+	}
+}
+
+
+@-ms-keyframes fly3_right {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-35deg);
+	}
+}
+
+
+/*******************************************************************************************************
+ butterfly_2
+********************************************************************************************************/
+/**************  flight_2 animation  *****************/
+@keyframes flight_2 {
+	 0% {
+	transform: translate(0) ;
+	backface-visibility:hidden;
+	}
+	 10% {
+	transform: translate(0) ;
+	backface-visibility:hidden;
+	}
+	 20% {
+	transform: translate(45px, 328px) ;
+	backface-visibility:hidden;
+	}
+	 30% {
+	transform: translate(43px, 323px) ;
+	backface-visibility:hidden;
+	}
+	
+	 35% {
+	transform: translate(339px, 18px) ;
+	backface-visibility:hidden;
+	}
+	 50% {
+	transform: translate(339px, 18px) ;
+	backface-visibility:hidden;
+	}
+	 70% {
+		transform: translate(339px, 18px) ;
+	backface-visibility:hidden;
+		}
+	 85% {
+	transform: translate(161px, 85px) ;
+	backface-visibility:hidden;
+	}	
+	 100% {
+	transform: translate(0);
+		}
+}
+@-moz-keyframes flight_2 {
+
+	 0% {
+	-moz-transform: translate(0) ;
+	-moz-backface-visibility:hidden;
+	}
+	 10% {
+	-moz-transform: translate(0) ;
+	-moz-backface-visibility:hidden;
+	}
+	 20% {
+	-moz-transform: translate(45px, 328px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 30% {
+	-moz-transform: translate(43px, 323px) ;
+	-moz-backface-visibility:hidden;
+	}
+	
+	 35% {
+	-moz-transform: translate(339px, 18px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 50% {
+	-moz-transform: translate(339px, 18px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 70% {
+		-moz-transform: translate(339px, 18px) ;
+	-moz-backface-visibility:hidden;
+		}
+	 85% {
+	-moz-transform: translate(161px, 85px) ;
+	-moz-backface-visibility:hidden;
+	}	
+	 100% {
+	-moz-transform: translate(0);
+		}
+}
+@-webkit-keyframes flight_2 {
+
+	 0% {
+	-webkit-transform: translate(0) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 10% {
+	-webkit-transform: translate(0) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 20% {
+	-webkit-transform: translate(45px, 328px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 30% {
+	-webkit-transform: translate(43px, 323px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	
+	 35% {
+	-webkit-transform: translate(339px, 18px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 50% {
+	-webkit-transform: translate(339px, 18px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 70% {
+		-webkit-transform: translate(339px, 18px) ;
+	-webkit-backface-visibility:hidden;
+		}
+	 85% {
+	-webkit-transform: translate(161px, 85px) ;
+	-webkit-backface-visibility:hidden;
+	}	
+	 100% {
+	-webkit-transform: translate(0);
+		}
+}
+@-ms-keyframes flight_2 {
+	 0% {
+	-ms-transform: translate(0) ;
+	-ms-backface-visibility:hidden;
+	}
+	 10% {
+	-ms-transform: translate(0) ;
+	-ms-backface-visibility:hidden;
+	}
+	 20% {
+	-ms-transform: translate(45px, 328px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 30% {
+	-ms-transform: translate(43px, 323px) ;
+	-ms-backface-visibility:hidden;
+	}
+	
+	 35% {
+	-ms-transform: translate(339px, 18px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 50% {
+	-ms-transform: translate(339px, 18px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 70% {
+		-ms-transform: translate(339px, 18px) ;
+	-ms-backface-visibility:hidden;
+		}
+	 85% {
+	-ms-transform: translate(161px, 85px) ;
+	-ms-backface-visibility:hidden;
+	}	
+	 100% {
+	-ms-transform: translate(0);
+		}
+}
+@-o-keyframes flight_2 {
+	 0% {
+	-o-transform: translate(0) ;
+	-o-backface-visibility:hidden;
+	}
+	 10% {
+	-o-transform: translate(0) ;
+	-o-backface-visibility:hidden;
+	}
+	 20% {
+	-o-transform: translate(45px, 328px) ;
+	-o-backface-visibility:hidden;
+	}
+	 30% {
+	-o-transform: translate(43px, 323px) ;
+	-o-backface-visibility:hidden;
+	}
+	
+	 35% {
+	-o-transform: translate(339px, 18px) ;
+	-o-backface-visibility:hidden;
+	}
+	 50% {
+	-o-transform: translate(339px, 18px) ;
+	-o-backface-visibility:hidden;
+	}
+	 70% {
+		-o-transform: translate(339px, 18px) ;
+	-o-backface-visibility:hidden;
+		}
+	 85% {
+	-o-transform: translate(161px, 85px) ;
+	-o-backface-visibility:hidden;
+	}	
+	 100% {
+	-o-transform: translate(0);
+		}
+}
+
+/**************  fly2 wing_action animation  *****************/
+@keyframes fly2_left {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+
+@keyframes fly2_right {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+@-webkit-keyframes fly2_left {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(75deg);
+	}
+}
+
+
+@-webkit-keyframes fly2_right {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+@-moz-keyframes fly2_left {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+
+@-moz-keyframes fly2_right {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+@-o-keyframes fly2_left {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+
+@-o-keyframes fly2_right {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+@-ms-keyframes fly2_left {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+
+@-ms-keyframes fly2_right {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-75deg);
+	}
+}
+
+
+
+/*******************************************************************************************************
+ butterfly_4
+********************************************************************************************************/
+/**************  flight_4 animation  *****************/
+@keyframes flight_4 {
+	 0% {
+	transform: translate(0) ;
+	backface-visibility:hidden;
+	}
+	 15% {
+	transform: translate(35px, 133px) ;
+	backface-visibility:hidden;
+	}
+	 25% {
+	transform: translate(249px, 178px) ;
+	backface-visibility:hidden;
+	}
+	 35% {
+	transform: translate(386px, 126px) ;
+	backface-visibility:hidden;
+	}
+	 50% {
+	transform: translate(200px, 92px) ;
+	backface-visibility:hidden;
+	}
+	 70% {
+		transform: translate(200px, 96px) ;
+	backface-visibility:hidden;
+		}
+	 85% {
+	transform: translate(200px, 92px) ;
+	backface-visibility:hidden;
+	}	
+	 100% {
+	transform: translate(0);
+		}
+}
+@-moz-keyframes flight_4 {
+
+	 0% {
+	-moz-transform: translate(0) ;
+	-moz-backface-visibility:hidden;
+	}
+	 15% {
+	-moz-transform: translate(35px, 133px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 25% {
+	-moz-transform: translate(249px, 178px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 35% {
+	-moz-transform: translate(386px, 126px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 50% {
+	-moz-transform: translate(200px, 92px) ;
+	-moz-backface-visibility:hidden;
+	}
+	 70% {
+		-moz-transform: translate(200px, 96px) ;
+	-moz-backface-visibility:hidden;
+		}
+	 85% {
+	-moz-transform: translate(200px, 92px) ;
+	-moz-backface-visibility:hidden;
+	}	
+	 100% {
+	-moz-transform: translate(0);
+		}
+}
+@-webkit-keyframes flight_4 {
+
+	 0% {
+	-webkit-transform: translate(0) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 15% {
+	-webkit-transform: translate(35px, 133px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 25% {
+	-webkit-transform: translate(249px, 178px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 35% {
+	-webkit-transform: translate(386px, 126px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 50% {
+	-webkit-transform: translate(200px, 92px) ;
+	-webkit-backface-visibility:hidden;
+	}
+	 70% {
+		-webkit-transform: translate(200px, 96px) ;
+	-webkit-backface-visibility:hidden;
+		}
+	 85% {
+	-webkit-transform: translate(200px, 92px) ;
+	-webkit-backface-visibility:hidden;
+	}	
+	 100% {
+	-webkit-transform: translate(0);
+		}
+}
+@-ms-keyframes flight_4 {
+	 0% {
+	-ms-transform: translate(0) ;
+	-ms-backface-visibility:hidden;
+	}
+	 15% {
+	-ms-transform: translate(35px, 133px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 25% {
+	-ms-transform: translate(249px, 178px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 35% {
+	-ms-transform: translate(386px, 126px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 50% {
+	-ms-transform: translate(200px, 92px) ;
+	-ms-backface-visibility:hidden;
+	}
+	 70% {
+		-ms-transform: translate(200px, 96px) ;
+	-ms-backface-visibility:hidden;
+		}
+	 85% {
+	-ms-transform: translate(200px, 92px) ;
+	-ms-backface-visibility:hidden;
+	}	
+	 100% {
+	-ms-transform: translate(0);
+		}
+}
+@-o-keyframes flight_4 {
+	 0% {
+	-o-transform: translate(0) ;
+	-o-backface-visibility:hidden;
+	}
+	 15% {
+	-o-transform: translate(35px, 133px) ;
+	-o-backface-visibility:hidden;
+	}
+	 25% {
+	-o-transform: translate(249px, 178px) ;
+	-o-backface-visibility:hidden;
+	}
+	 35% {
+	-o-transform: translate(386px, 126px) ;
+	-o-backface-visibility:hidden;
+	}
+	 50% {
+	-o-transform: translate(200px, 92px) ;
+	-o-backface-visibility:hidden;
+	}
+	 70% {
+		-o-transform: translate(200px, 96px) ;
+	-o-backface-visibility:hidden;
+		}
+	 85% {
+	-o-transform: translate(200px, 92px) ;
+	-o-backface-visibility:hidden;
+	}	
+	 100% {
+	-o-transform: translate(0);
+		}
+}
+
+/**************  fly4 wing_action animation  *****************/
+@keyframes fly4_left {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+
+
+@keyframes fly4_right {
+    from {
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	backface-visibility:hidden;
+	transform:perspective(1200px) rotateY(55deg);
+	}
+}
+
+@-webkit-keyframes fly4_left {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+
+
+@-webkit-keyframes fly4_right {
+    from {
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-webkit-backface-visibility:hidden;
+	-webkit-transform:perspective(1200px) rotateY(55deg);
+	}
+}
+
+@-moz-keyframes fly4_left {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+
+
+@-moz-keyframes fly4_right {
+    from {
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-moz-backface-visibility:hidden;
+	-moz-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+@-o-keyframes fly4_left {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+
+
+@-o-keyframes fly4_right {
+    from {
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-o-backface-visibility:hidden;
+	-o-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+@-ms-keyframes fly4_left {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
+
+
+@-ms-keyframes fly4_right {
+    from {
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(0);
+	}
+	to{
+	-ms-backface-visibility:hidden;
+	-ms-transform:perspective(1200px) rotateY(-55deg);
+	}
+}
